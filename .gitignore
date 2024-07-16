@@ -1,0 +1,30 @@
+# Ignore Go build artifacts
+bin/
+pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the 'go tool vet'
+vet.out
+
+# IDE settings
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Dependency directories (for vendoring)
+vendor/
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
